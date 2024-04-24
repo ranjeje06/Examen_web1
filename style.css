@@ -7,7 +7,7 @@
 .main{
     width: 100%;
     height: 100vh;
-    background-image: url(assets/photo/font.jpg);
+    background-image: url(assets/photo/Fond\ De\ Plage\ D\'été\ Avec\ Un\ Style\ Frais\ d\'écran\ Photo\ Téléchargement\ Gratuit\ -\ Pngtree.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
@@ -36,17 +36,20 @@
 }
 
 .menu ul li a{
+
     text-decoration: none;
     color: aliceblue;
     font-family: arial;
     font-weight: bold;
     transition:0.4s ease-in-out;
+    
 }
 .menu ul li a:hover{
-    color:rgba(70, 121, 189, 0.473).400 ease-in-out;
+    color:#5c6a99;
 }
 
 .navbar{
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -54,6 +57,7 @@
 }
 
 .logo{
+
     color: aliceblue;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 800
@@ -68,10 +72,10 @@
 .srch{
     font-family: arial;
     width: 200px;
-    height: 40px;
+    height: 30px;
     background: white;
-    border: 1px solid rgb(126, 127, 172);
-    margin-top: 13px;
+    border: 1px solid #41C9E2;
+    margin-top: 10px;
     color: black;
     border-right: none;
     font-size: 20px;
@@ -83,8 +87,8 @@
 }
 .btn{
     width: 100px;
-    height: 40px;
-    background: red;
+    height: 30px;
+    background:#41C9E2;
     border: 2px solid rgb(3, 12, 26);
     margin-top: 13px;
     color: antiquewhite;
@@ -109,34 +113,36 @@
 }
 
 .content .par{
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: arial;
+    padding-left: 40px;
+    padding-bottom: 60px;
+    font-family: Georgia;
     letter-spacing:1.2px;
-    line-height: 30px;
+    line-height: 35px;
     color: white;
 }
 
 .content h1{
     font-family:sans-serif;
-    font-size: 50px;
-    padding-left: 50px;
-    padding-left: 20px;
+    font-size: 60px;
+    padding-left: 60px;
+    padding-left: 60px;
     margin-top: 9%;
-    color: rgba(70, 121, 189, 0.473);
+    color:#0766AD;
     letter-spacing: 2px;
+    font-family: impact;
 }
 
 .content .cn{
-    width: 100px;
+    width: 160px;
     height: 40px;
-    background: rgb(196, 10, 10);
+    background: #29ADB2;
     border: none;
     margin-bottom: 10px;
     margin-left: 20px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
+    transition: .3 ease;
 }
 
 .content .cn a{
@@ -148,6 +154,44 @@
     background-color: white;
 }
 
-.content{
-    color: red;
+.content .cn2{
+    width: 160px;
+    height: 40px;
+    background: #29ADB2;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3 ease;
 }
+.content .cn2 a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+.cn2:hover{
+    background-color: white;
+}
+
+.content{
+    color:#06385e;
+
+}
+.content span{
+    color:#ad0747 ;
+    font-size: 65px;
+}
+.form{
+    with: 250px;
+    height: 380px;
+    background: linear-gradient( to top,black(0,0,0,0.6)50%,black(0,0,0,0.6)50%);
+    position: absolute;
+     top: -20px;
+     left: 870px;
+     border-radius: 10px;
+     padding: 25px;
+}
+
+
