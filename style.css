@@ -1,90 +1,68 @@
 *{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-}
-
-.main{
-    width: 100%;
-    height: 100vh;
-    background-image: url(assets/photo/Fond\ De\ Plage\ D\'été\ Avec\ Un\ Style\ Frais\ d\'écran\ Photo\ Téléchargement\ Gratuit\ -\ Pngtree.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.menu{
-    width: 400px;
-    height: 70px;
-    display: flex;
-    flex-direction: row;
-}
-.menu ul{
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-}
-
-.menu ul li{
-        list-style: none;
-        margin-left: 65px;
-        margin-top: 30px;
-        font-size: 15px;
-}
-
-.menu ul li a{
-
-    text-decoration: none;
-    color: aliceblue;
-    font-family: arial;
-    font-weight: bold;
-    transition:0.4s ease-in-out;
-    
-}
-.menu ul li a:hover{
-    color:#5c6a99;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
 }
 
 .navbar{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    width: 100%;
+    height: 50%;
+    background-color:rgba(76, 96, 124, 0.493);
+    display:flex ;
+    justify-content: space-around;
     align-items: center;
+    color:rgb(68, 68, 116);
 }
-
-.logo{
-
-    color: aliceblue;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 800
-}
-
-.search{
-    width: 330px;
-    /* float: left; */
-    margin-left: 270px;
-}
-
-.srch{
-    font-family: arial;
-    width: 200px;
-    height: 30px;
-    background: white;
-    border: 1px solid #41C9E2;
-    margin-top: 10px;
-    color: black;
-    border-right: none;
-    font-size: 20px;
-    /* float: left; */
-    padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+.menu ul{
+display: flex;
+align-items: center;
 
 }
+.menu ul a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+
+.menu ul  li a:hover{
+border-bottom: 4px solid #000;
+transition:04s;
+}
+
+.Singup{
+    color: #000;
+    text-decoration: none;
+     font-size: 20px;
+    font-weight: bolder;
+    border-radius: 12px;
+    padding: 12px 30px;
+    
+    
+}
+a{
+    text-decoration: none;  
+}
+.Singup a:hover{
+    color: #000;
+    transition: 0.6s;
+    border:solid, #000;
+    text-decoration: none;
+}
+.body{
+    width: 100%;
+    height: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.001),rgba(0, 0, 0, 0.264)),url(assets/photo/polynesia-3021072_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .btn{
     width: 100px;
     height: 30px;
@@ -180,11 +158,11 @@
 
 }
 .content span{
-    color:#ad0747 ;
+    color:#d57b22fd ;
     font-size: 65px;
 }
 .form{
-    with: 250px;
+    
     height: 380px;
     background: linear-gradient( to top,black(0,0,0,0.6)50%,black(0,0,0,0.6)50%);
     position: absolute;
