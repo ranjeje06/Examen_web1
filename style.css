@@ -32,7 +32,6 @@
                                                 align-items: center;
                                                 justify-content: space-between;
                                                 padding: 10px 8%;
-                                                height: 80px;
                                                 box-shadow: 0 0 12px #1c1427;
                                             }
                                             
@@ -96,7 +95,7 @@
                                             }
                                             
                                              :-webkit-scrollbar {
-                                                width: 8px;
+                                                width: 15px;
                                                 background-color: transparent;
                                             }
                                             
@@ -520,81 +519,31 @@
                                                 gap: 3vh;
                                             }
                                             
-                                            @media screen and (max-width: 415px) {
-                                                body {
-                                                    overflow-x: hidden;
-                                                }
-                                                header {
-                                                    width: 100%;
-                                                    position: fixed;
-                                                    top: 0;
-                                                    z-index: 20;
-                                                    background-color: #fff;
-                                                    display: flex;
-                                                    flex-direction: column;
-                                                    align-items: center;
-                                                    justify-content: space-between;
-                                                    padding: 10px 8%;
-                                                    height: 60px;
-                                                    box-shadow: 0 0 12px #1c1427;
-                                                }
-                                                .menu {
-                                                    width: 100%;
-                                                }
-                                                #home .right {
-                                                    margin-bottom: 10%;
-                                                    width: 100%;
-                                                }
-                                                #home .right h1 {
-                                                    font-size: 50px;
-                                                }
-                                                #home {
-                                                    display: flex;
-                                                    flex-direction: column;
-                                                }
-                                                #home .right h1 span {
-                                                    color: #B5525C;
-                                                }
-                                                #home .left {
-                                                    width: 100%;
-                                                    align-items: center;
-                                                    justify-content: center;
-                                                }
-                                                #home .left img {
-                                                    width: 300px;
-                                                    border-radius: 25px;
-                                                    box-shadow: 14px 7px 55px -7px rgba(0, 0, 0, 0.42);
-                                                }
-                                                #container {
-                                                    display: flex;
-                                                    align-items: center;
-                                                    justify-content: center;
-                                                    flex-direction: column;
-                                                }
-                                                #pic {
-                                                    display: flex;
-                                                    flex-direction: column;
-                                                    width: 100%;
-                                                    justify-content: center;
-                                                    margin-left: 35%;
-                                                }
-                                                footer .content {
-                                                    background: #10303d9b;
-                                                    display: flex;
-                                                    flex-direction: column;
-                                                    margin: auto;
-                                                    padding: 20px 30px 30px 30px;
-                                                }
-                                            }
-                                            
                                             @media(max-width:991px) {
-                                                .contact {
-                                                    padding: 50px;
+                                                .menu {
+                                                    display: flex;
+                                                    justify-content: space-around;
+                                                }
+                                                #contact {
+                                                    width: 100%;
+                                                    height: 200vh;
                                                 }
                                                 .container {
+                                                    width: 100vw;
                                                     flex-direction: column;
                                                 }
                                                 .container .contactInfo {
-                                                    margin: 40px;
+                                                    display: flex;
+                                                    width: 100%;
+                                                }
+                                                .contactInfo {
+                                                    width: 200vw;
+                                                }
+                                                .contactForm {
+                                                    width: 100%;
+                                                }
+                                                footer .content {
+                                                    width: 100%;
+                                                    height: 60vh;
                                                 }
                                             }
